@@ -7,9 +7,9 @@ let package = Package(
     name: "flutter_asset",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
-//        .executable(
-//            name: "flutter_asset",
-//            targets: ["flutter_asset"]),
+        .executable(
+            name: "flutter_asset",
+            targets: ["flutter_asset"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
