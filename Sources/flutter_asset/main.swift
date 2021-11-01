@@ -33,6 +33,7 @@ struct FlutterAsset: ParsableCommand {
         for content in contents {
             try _saveImage(imageName: content, toPath: _to)
         }
+        print("✅复制文件成功!")
     }
     
     func _saveImage(imageName:String, toPath:String) throws {
